@@ -67,7 +67,6 @@ export class ImageGallery extends Component {
 
   handleSubmit = () => {
     this.setState({ page: this.state.page + 1 });
-    // this.scroll();
   };
 
   openModal = (e) => {

@@ -1,0 +1,9 @@
+.loadmore {
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 40px;
+    background-color: black;
+    color: white;
+    margin: 20px auto;
+    display: block;
+}

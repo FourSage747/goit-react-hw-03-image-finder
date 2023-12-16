@@ -127,7 +127,7 @@ export class ImageGallery extends Component {
             wrapperClass
         />}
         {largeImageURL && <Modal largeImageURL={largeImageURL} closeModal={this.props.closeModal}/>}
-        {page*12 <= totalPage && photo && <Button handleSubmit={this.props.handleSubmit} />}
+        {page*12 <= totalPage && photo && !isLoading && <Button handleSubmit={this.props.handleSubmit} />}
       </div>
     );
   }
